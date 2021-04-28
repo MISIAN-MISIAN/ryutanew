@@ -82,4 +82,4 @@ gem 'font-awesome-sass'
 gem 'sqlite3', '~> 1.3.6',group: [:development, :test]
 # gem "sqlite3", "~> 1.3", ">= 1.3.6",group: [:development, :test]
 
-gem "mimemagic", "~> 0.3.10"
+# gem "mimemagic", "~> 0.3.10"
