@@ -78,6 +78,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'font-awesome-sass'
 
 #デプロイ用
-gem 'sqlite3', group: [:development, :test]
+# gem 'sqlite3', group: [:development, :test]
+gem 'sqlite3', '~> 1.3.6',group: [:development, :test]
 
 gem "mimemagic", "~> 0.3.10"
