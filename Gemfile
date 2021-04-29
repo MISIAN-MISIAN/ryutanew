@@ -82,6 +82,9 @@ gem 'font-awesome-sass'
 # gem 'sqlite3', '~> 1.3.6',group: [:development, :test]
 # gem 'sqlite3', '~> 1.4.0',group: [:development, :test]
 # gem "sqlite3", "~> 1.3", ">= 1.3.6",group: [:development, :test]
+gem "sqlite3", ">= 1.3.6", "< 1.5", group: [:development, :test]
+ 
+
 # group :development, :test do
 #   gem "sqlite3", "~> 1.3"
 #   require "sqlite3"
