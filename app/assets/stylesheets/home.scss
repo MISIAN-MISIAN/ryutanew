@@ -24,13 +24,11 @@ header{
 
 
 .inner{
- display:flex;
+  display:flex;
   padding:10px;
   background-color: white;
-  // .insta{
-  //   padding-left:  80%;
-  //   font-size: 30px;
-  // }
+  
+  
   .insta_btn {
     margin-top: 10px;
     padding-left:  75%;
@@ -54,7 +52,7 @@ header{
     background: linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;/*グラデーション①*/
     overflow: hidden;/*はみ出た部分を隠す*/
     border-radius: 13px;/*角丸に*/
-  
+    
   }
   .insta_btn .insta:before{/*グラデーションを重ねるため*/
     content: '';
@@ -73,7 +71,7 @@ header{
     font-size: 25px;/*アイコンサイズ*/
     line-height: 40px;/*高さと合わせる*/
   }
-
+  
   .twitter{
     display: inline-block;
     color: #1da1f2;
@@ -86,9 +84,17 @@ header{
     font-size: 40px;
     margin-left: 30px;
   }
-
+  
+  // @media screen and (min-width:480){
+  //   .inner{
+  //     background-color: red;
+  //   }
+   
+  // }
   
 }
+
+
 
 
 .title{
